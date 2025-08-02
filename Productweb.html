@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartTask Manager</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f8fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0a74da;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    #hero {
+      background-color: #e8f0fe;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    #hero h2 {
+      margin-top: 0;
+    }
+
+    #hero a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0a74da;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    #hero a:hover {
+      background-color: #075bb5;
+    }
+
+    #about ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    #about li {
+      padding: 8px 0;
+    }
+
+    #signup form {
+      margin-top: 15px;
+    }
+
+    #signup input[type="email"] {
+      padding: 10px;
+      width: 100%;
+      max-width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    #signup button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #0a74da;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #signup button:hover {
+      background-color: #075bb5;
+    }
+
+    #download a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    #download a:hover {
+      background-color: #218838;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SmartTask Manager</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#signup">Newsletter</a>
+      <a href="#download">Download</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h2>Organize Your Tasks Effortlessly</h2>
+      <p>SmartTask Manager helps you stay focused, productive, and in control of your time. Try it free today.</p>
+      <a href="#download">📥 Download the Free Guide</a>
+    </section>
+
+    <section id="about">
+      <h2>Why Choose SmartTask?</h2>
+      <ul>
+        <li>✅ Easy to use interface</li>
+        <li>⏰ Reminders & scheduling</li>
+        <li>📊 Track progress visually</li>
+        <li>🔒 Secure cloud sync</li>
+      </ul>
+    </section>
+
+    <section id="signup">
+      <h2>Stay Updated</h2>
+      <p>Sign up for our newsletter to receive productivity tips and updates.</p>
+      <form>
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section id="download">
+      <h2>Download Our Free Productivity Guide</h2>
+      <p>Get your hands on our exclusive PDF packed with actionable tips.</p>
+      <a href="guide.pdf" download>📄 Click here to download</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SmartTask Inc. | Contact: info@smarttask.com</p>
+  </footer>
+
+</body>
+</html>
